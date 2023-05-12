@@ -397,7 +397,6 @@ body{
     color: #FFFFFF;
     margin-right: 20px;
 }
-
 .text-icon-2 ion-icon{
     background: #F03E3D;
     width: 35px;
@@ -406,7 +405,6 @@ body{
     color: #FFFFFF;
     margin-right: 20px;
 }
-
 .text-icon-3 ion-icon{
     background: #4D8DFF;
     width: 35px;
@@ -415,5 +413,128 @@ body{
     color: #FFFFFF;
     margin-right: 20px;
 }
-
 /*Support end*/
+
+/*Process*/
+#process{
+    background: url("../img/process-bg.png") no-repeat center/cover;
+}
+.process{
+    padding: 52px 0 100px 0;
+}
+.process h1{
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    color: #22343D;
+}
+.process p{
+    padding: 16px 0 32px 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #22343D;
+    text-align: center;
+}
+.blocks-one{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.prs-block-1{
+    display: flex;
+    align-items: center;
+}
+.prs-1{
+    background: yellow;
+    border-radius: 26px;
+    width: 250px;
+    height: 10px;
+}
+.blocks-two{
+    padding: 24px 0 48px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.process button{
+    padding: 10px 10px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #02897A;
+    border-radius: 4px;
+}
+.process button:hover{
+    background: #FFFFFF;
+    color: #02897A;
+    border: 2px solid #02897A;
+}
+/*Process end*/
+
+/*Slider*/
+.slider{
+    padding: 50px 0 50px;
+}
+.slider h1{
+    font-weight: 700;
+    font-size: 34px;
+    color: #22343D;
+}
+.slider p{
+    padding: 8px 0 33px 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #22343D;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swiper-slide img {
+    padding-bottom: 24px;
+    border-radius: 8px 8px 0 0;
+    display: block;
+    object-fit: cover;
+}
+.slider-block h5{
+    padding-left: 24px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    color: #22343D;
+}
+.slider-block p{
+    padding: 20px 0 12px 24px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #22343D;
+}
+.swiper-slide{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.slider-block{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    height: 359px;
+    width: 348px;
+    border-radius: 8px;
+    border: 1px solid #173A56;
+    transition: .4s;
+}
+.slider-block:hover h5{
+   color: #02897A;
+}
+
+/*Slider end*/
